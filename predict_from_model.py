@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from FileOperations.file_methods import File_Operation
-from Application_Logging.logger import App_Logger
+# from Application_Logging.logger import App_Logger
 
 from Prediction_DataPreprocessing.preprocessing import Preprocessor
 from Prediction_RawDataValidation.raw_data_validation import RawDataValidation
@@ -10,8 +10,8 @@ from Prediction_RawDataValidation.raw_data_validation import RawDataValidation
 class prediction:
 
     def __init__(self,path):
-        self.file_object = "Prediction_predictFromModel.txt"
-        self.log_writer = App_Logger()
+        # self.file_object = "Prediction_predictFromModel.txt"
+        # self.log_writer = App_Logger()
         self.pred_data_val = RawDataValidation(path)
         self.preprocessor = Preprocessor()
         self.model_loader = File_Operation()
@@ -20,11 +20,11 @@ class prediction:
 
         try:
             self.pred_data_val.deletePredictionFile() #deletes the existing prediction file from last run!
-            self.log_writer.log(self.file_object,'Start of Prediction')
+            # self.log_writer.log(self.file_object,'Start of Prediction')
 
             df_path = 'Prediction_InputFileAfterValidation/input_file.csv'
             df = pd.read_csv(df_path)
-            self.log_writer.log(self.file_object, "Got the validated CSV file!!")
+            # self.log_writer.log(self.file_object, "Got the validated CSV file!!")
 
             # Order the column names in alphabetical order
             data = self.preprocessor.order_columns_alphabetical_order(df)
@@ -51,27 +51,11 @@ class prediction:
             result = model.predict(data)
             # print(result)
 
-
             return result
 
 
-            # clusters=kmeans.predict(X)#drops the first column for cluster prediction
-            # X['clusters']=clusters
-            # clusters=X['clusters'].unique()
-            # predictions=[]
-            # for i in clusters:
-            #     cluster_data= X[X['clusters']==i]
-            #     cluster_data = cluster_data.drop(['clusters'],axis=1)
-            #     model_name = file_loader.find_correct_model_file(i)
-            #     model = file_loader.load_model(model_name)
-            #     result=(model.predict(cluster_data))
-            #
-            # final= pd.DataFrame(list(zip(result)),columns=['Predictions'])
-            # path="Prediction_Output_File/Predictions.csv"
-            # final.to_csv("Prediction_Output_File/Predictions.csv",header=True,mode='a+') #appends result to prediction file
-            # self.log_writer.log(self.file_object,'End of Prediction')
         except Exception as ex:
-            self.log_writer.log(self.file_object, 'Error occured while running the prediction!! Error:: %s' % ex)
+            # self.log_writer.log(self.file_object, 'Error occured while running the prediction!! Error:: %s' % ex)
             raise ex
 
 

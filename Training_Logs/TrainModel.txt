@@ -1,0 +1,44 @@
+2021-08-06		14:30:48		Got the input csv file!!
+2021-08-06		14:31:17		Entering the best model finder
+2021-08-06		14:33:06		The best model is XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints='',
+              learning_rate=0.300000012, max_delta_step=0, max_depth=6,
+              min_child_weight=1, missing=nan, monotone_constraints='()',
+              n_estimators=50, n_jobs=-1, num_parallel_tree=1, random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,
+              tree_method='exact', validate_parameters=1, verbosity=None)
+2021-08-06		14:33:06		success
+2021-08-06		15:19:20		Got the input csv file!!
+2021-08-06		15:19:59		Entering the best model finder
+2021-08-06		15:21:48		The best model is XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints='',
+              learning_rate=0.300000012, max_delta_step=0, max_depth=6,
+              min_child_weight=1, missing=nan, monotone_constraints='()',
+              n_estimators=50, n_jobs=-1, num_parallel_tree=1, random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,
+              tree_method='exact', validate_parameters=1, verbosity=None)
+2021-08-06		15:21:48		success
+2021-08-06		15:29:55		Got the input csv file!!
+2021-08-06		15:30:28		Entering the best model finder
+2021-08-06		15:32:17		The best model is XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints='',
+              learning_rate=0.300000012, max_delta_step=0, max_depth=6,
+              min_child_weight=1, missing=nan, monotone_constraints='()',
+              n_estimators=100, n_jobs=-1, num_parallel_tree=1, random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,
+              tree_method='exact', validate_parameters=1, verbosity=None)
+2021-08-06		15:32:17		success
+2021-08-11		12:02:14		Got the input csv file!!
+2021-08-11		12:02:50		Entering the best model finder
+2021-08-11		12:04:25		The best model is XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints='',
+              learning_rate=0.300000012, max_delta_step=0, max_depth=5,
+              min_child_weight=1, missing=nan, monotone_constraints='()',
+              n_estimators=50, n_jobs=-1, num_parallel_tree=1, random_state=0,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,
+              tree_method='exact', validate_parameters=1, verbosity=None)
+2021-08-11		12:04:25		success

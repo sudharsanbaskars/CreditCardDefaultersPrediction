@@ -1,0 +1,31 @@
+{
+
+	"NumberofColumns" : 25,
+	"ColName": {
+		"ID" : "INT",
+		"LIMIT_BAL" : "INT",
+		"SEX": "INT",
+		"EDUCATION": "INT",
+		"MARRIAGE": "INT",
+		"AGE": "INT",
+		"PAY_0": "INT",
+		"PAY_2": "INT",
+		"PAY_3": "INT",
+		"PAY_4": "INT",
+		"PAY_5": "INT",
+		"PAY_6" : "INT",
+		"BILL_AMT1": "DECIMAL",
+		"BILL_AMT2": "DECIMAL",
+		"BILL_AMT3": "DECIMAL",
+		"BILL_AMT4": "DECIMAL",
+		"BILL_AMT5": "DECIMAL",
+		"BILL_AMT6": "DECIMAL",
+		"PAY_AMT1": "DECIMAL",
+		"PAY_AMT2": "DECIMAL",
+		"PAY_AMT3": "DECIMAL",
+		"PAY_AMT4" : "DECIMAL",
+		"PAY_AMT5": "DECIMAL",
+		"PAY_AMT6": "DECIMAL",
+		"default payment next month": "INT"
+	}
+}

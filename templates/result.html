@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+<h5 class="title">Download your Result File</h5>
+<span><small><strong>(Note: The Predicted Value is attached to the last column of your CSV file)</strong></small></span>
+    <br>
+    <div class="json-result">
+        <br>
+      <a class="btn btn-primary btn-large" href="return_file/">Download</a>
+    </div>
+    <span><small>(The Column name is <b>"default_payment_next_month"</b>)</small></span>
+    <div class="container">
+        <span><b>1</b>: Person will Default</span><br>
+        <span><b>0</b>: Person will not Default</span>
+    </div>
+
+{% endblock content %}

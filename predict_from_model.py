@@ -41,7 +41,7 @@ class prediction:
 
             # Proceeding with more data pre-processing steps
             data = self.preprocessor.scale_numerical_columns(data)
-            print(data.columns)
+#             print(data.columns)
             # print(data)
 
 

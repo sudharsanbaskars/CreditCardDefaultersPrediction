@@ -2,7 +2,7 @@ import pickle
 import os
 import shutil
 
-# from Application_Logging.logger import App_Logger
+from Application_Logging.logger import App_Logger
 
 class File_Operation:
     """
@@ -11,8 +11,8 @@ class File_Operation:
 
      """
     def __init__(self):
-#         self.file_object = 'File_operations.txt'
-#         self.logger_object = App_Logger()
+        self.file_object = 'File_operations.txt'
+        self.logger_object = App_Logger()
         self.model_directory='Models'
 
     def save_model(self,model,filename):
@@ -55,18 +55,17 @@ class File_Operation:
 
         """
 
-#         self.logger_object.log(self.file_object, 'Entered the load_model method of the File_Operation class')
+        self.logger_object.log(self.file_object, 'Entered the load_model method of the File_Operation class')
         try:
             with open(str(filename), 'rb') as f:
-#                 self.logger_object.log(self.file_object,
-#                                        'Model File ' + filename + ' loaded. Exited the load_model method of the Model_Finder class')
+                self.logger_object.log(self.file_object,
+                                       'Model File ' + filename + ' loaded. Exited the load_model method of the Model_Finder class')
                 return pickle.load(f)
 
 
         except Exception as e:
-            raise e
-#             self.logger_object.log(self.file_object,
-#                                    'Exception occured in load_model method of the Model_Finder class. Exception message:  ' + str(
-#                                        e))
+            self.logger_object.log(self.file_object,
+                                   'Exception occured in load_model method of the Model_Finder class. Exception message:  ' + str(
+                                       e))
 
 

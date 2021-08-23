@@ -8,6 +8,9 @@ from Prediction_RawDataValidation.raw_data_validation import RawDataValidation
 
 
 class prediction:
+    """
+        This class is used for preprocessing the user given dataset and doing prediction using the trained model 
+    """
 
     def __init__(self,path):
         self.file_object = "Prediction_predictFromModel.txt"

@@ -1,0 +1,20 @@
+2021-08-23		09:45:50		Got the values from scehema JSON file.The number of columns are 24
+2021-08-23		09:45:50		Good Data Folder Deleted Successfilly!
+2021-08-23		09:45:50		Bad Data Folder Deleted Successfilly!
+2021-08-23		09:45:50		Successfully created Directory for good and bad data folder
+2021-08-23		09:45:50		Valid file Name!! File successfully moved to Good Data Folder
+2021-08-23		09:45:50		Validation missing values in whole column completed!!
+2021-08-23		09:45:50		Succesfully moved the good data file to Final input data folder!!
+2021-08-23		09:45:50		Good Data Folder Deleted Successfilly!
+2021-08-23		09:45:50		Bad raw files successfully move to archive folder
+2021-08-23		09:45:50		Bad Data Folder Deleted Successfilly!
+2021-08-23		10:09:03		Got the values from scehema JSON file.The number of columns are 24
+2021-08-23		10:09:03		Good Data Folder Deleted Successfilly!
+2021-08-23		10:09:03		Bad Data Folder Deleted Successfilly!
+2021-08-23		10:09:03		Successfully created Directory for good and bad data folder
+2021-08-23		10:09:03		Valid file Name!! File successfully moved to Good Data Folder
+2021-08-23		10:09:03		Validation missing values in whole column completed!!
+2021-08-23		10:09:03		Succesfully moved the good data file to Final input data folder!!
+2021-08-23		10:09:03		Good Data Folder Deleted Successfilly!
+2021-08-23		10:09:03		Bad raw files successfully move to archive folder
+2021-08-23		10:09:03		Bad Data Folder Deleted Successfilly!

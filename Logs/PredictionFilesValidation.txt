@@ -1,0 +1,12 @@
+2021-08-23		09:45:50		Entered into PredictionFilesValidation for Prediction
+2021-08-23		09:45:50		Started Validating the columns length
+2021-08-23		09:45:50		Validating missing values in the whole column
+2021-08-23		09:45:50		Entering moveGoodFilesToFinalPrediction!
+2021-08-23		09:45:50		Deleting Existing Good Data Folder
+2021-08-23		09:45:50		Moving bad data folder to Archive
+2021-08-23		10:09:03		Entered into PredictionFilesValidation for Prediction
+2021-08-23		10:09:03		Started Validating the columns length
+2021-08-23		10:09:03		Validating missing values in the whole column
+2021-08-23		10:09:03		Entering moveGoodFilesToFinalPrediction!
+2021-08-23		10:09:03		Deleting Existing Good Data Folder
+2021-08-23		10:09:03		Moving bad data folder to Archive

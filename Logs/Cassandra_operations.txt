@@ -1,0 +1,7 @@
+2021-08-02		11:29:07		Table Created Successfully!!
+2021-08-02		11:29:07		Found a file in good data folder UCI_Credit_Card_01.csv
+2021-08-02		11:29:07		Starting insertion into the table
+2021-08-02		12:31:35		Found a file in good data folder UCI_Credit_Card_02.csv
+2021-08-02		12:31:35		Starting insertion into the table
+2021-08-02		13:34:22		Starting Inserting the data into csv file
+2021-08-02		13:35:16		Sucessfully Inserted data into InputFile.csv from DB!

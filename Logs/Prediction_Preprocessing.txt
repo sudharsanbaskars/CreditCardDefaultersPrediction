@@ -1,0 +1,7 @@
+2021-08-23		09:45:50		Columns are ordered Succesfully
+2021-08-23		09:45:50		Entered the is_null_present method of the Preprocessor class
+2021-08-23		09:45:50		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2021-08-23		09:45:50		Entered the remove_columns method of the Preprocessor class
+2021-08-23		09:45:50		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2021-08-23		09:45:50		Entered the scale_numerical_columns method of the Preprocessor class
+2021-08-23		09:45:50		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class

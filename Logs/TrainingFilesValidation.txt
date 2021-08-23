@@ -1,0 +1,7 @@
+2021-08-02		11:29:06		Entered into TrainingFilesValidation for training
+2021-08-02		11:29:06		Started Validating the columns length
+2021-08-02		11:29:06		Validating missing values in the whole column
+2021-08-02		11:29:06		Starting creating Table in cassandra
+2021-08-02		11:29:07		Inserting the data into table
+2021-08-02		13:34:22		Deleting Existing Good Data Folder
+2021-08-02		13:34:22		Moving bad data folder to Archive

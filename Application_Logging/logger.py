@@ -10,7 +10,7 @@ class App_Logger:
         self.now = datetime.now()
         self.date = self.now.date()
         self.current_time = self.now.strftime("%H:%M:%S")
-        path = "Training_Logs"
+        path = "Logs"
         with open(path+"/"+str(file_name), 'a+') as f:
             f.write(str(self.date)+ "\t\t" + str(self.current_time) + "\t\t"+str(log_message)+"\n")
             f.close()

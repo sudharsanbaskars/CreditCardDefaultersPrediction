@@ -1,14 +1,13 @@
 
 # Credit Card Defaulters Prediction
 
-### Description:
-- The repository represents "Credit Card Defaulters Prediction".
-- With the help of this project, we can able to predict the probability of credit default based on credit card owner's characteristics and payment history.
-- This Project is implemented 
 
 https://user-images.githubusercontent.com/71257512/130733131-7613840b-3062-4399-b8f0-0f4e2368b050.mp4
 
-using the Machine Learning Algorithm XGBoost.
+### Description:
+- The repository represents "Credit Card Defaulters Prediction".
+- With the help of this project, we can able to predict the probability of credit default based on credit card owner's characteristics and payment history.
+- This Project is implemented using the Machine Learning Algorithm XGBoost.
 
 
 ### Dataset:

@@ -1,3 +1,4 @@
+![architecture](https://user-images.githubusercontent.com/71257512/130731860-f8b5b1c1-5bc1-4a0d-9ad6-307522a5c722.png)
 # Credit Card Defaulters Prediction
 
 ### Description:

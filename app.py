@@ -77,8 +77,7 @@ def predict():
                 return render_template('invalid.html')
             
         except Exception as e:
-            raise e
-#             return render_template("invalid.html")
+            return render_template("invalid.html")
 
 
 

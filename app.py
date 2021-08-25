@@ -47,7 +47,6 @@ def predict():
             if 'csvfile' not in request.files:
                 return render_template("invalid.html")
 
-            message = ''
             file = request.files['csvfile']
             df = pd.read_csv(file, index_col=[0])
 
@@ -74,12 +73,12 @@ def predict():
                 if os.path.isfile('Prediction_FinalResultFile/Result.csv'):
                     os.remove('Prediction_FinalResultFile/Result.csv')
                 final_df.to_csv('Prediction_FinalResultFile/Result.csv', index=False)
-                message = "Success"
             else:
                 return render_template('invalid.html')
-#             print(message)
+            
         except Exception as e:
-            return render_template("invalid.html")
+            raise e
+#             return render_template("invalid.html")
 
 
 

@@ -77,7 +77,7 @@ def predict():
                 message = "Success"
             else:
                 return render_template('invalid.html')
-            print(message)
+#             print(message)
         except Exception as e:
             return render_template("invalid.html")
 

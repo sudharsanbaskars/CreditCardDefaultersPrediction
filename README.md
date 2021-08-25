@@ -25,6 +25,7 @@ https://user-images.githubusercontent.com/71257512/130733131-7613840b-3062-4399-
 - sklearn==0.0
 - xgboost==1.4.2
 
+### This project is also Deployed in heroku: https://credit-card-defaulters-online.herokuapp.com/
 ### Project Architecture:
 ![architecture](https://user-images.githubusercontent.com/71257512/130731860-f8b5b1c1-5bc1-4a0d-9ad6-307522a5c722.png)
 

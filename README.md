@@ -1,4 +1,4 @@
-![architecture](https://user-images.githubusercontent.com/71257512/130731860-f8b5b1c1-5bc1-4a0d-9ad6-307522a5c722.png)
+
 # Credit Card Defaulters Prediction
 
 ### Description:
@@ -21,6 +21,9 @@
 - scikit-learn==0.24.2
 - sklearn==0.0
 - xgboost==1.4.2
+
+### Project Architecture:
+![architecture](https://user-images.githubusercontent.com/71257512/130731860-f8b5b1c1-5bc1-4a0d-9ad6-307522a5c722.png)
 
 ### Setup:
 - Install the packages mentioned in [requirements.txt](https://github.com/sudharsanbaskars/CreditCardDefaultersPrediction/blob/main/requirements.txt).
